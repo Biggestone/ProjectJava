@@ -10,8 +10,7 @@ xmlns:h="http://java.sun.com/jsf/html">
 	<h:form>
 	
 		Nome:<h:inputText value="#{autorManagedBean.nome}"></h:inputText>
-		CPF:<h:inputText value="#{autorManagedBean.cpf}" ></h:inputText>
-		Nome do autor:<h:outputText value="#{autorManagedBean.autor.nome}"></h:outputText>
+		Sobrenome:<h:inputText value="#{autorManagedBean.sobrenome}" ></h:inputText>
 		<h:commandButton value="Chamar String" action="#{autorManagedBean.createAutor}"></h:commandButton>
 	</h:form>
 </h:body>
